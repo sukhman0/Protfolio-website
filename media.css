@@ -1,0 +1,30 @@
+
+@media only screen and (max-width: 670px) {
+    nav{
+      flex-direction: column;
+    }
+    nav .rightContainer ul li{
+      margin: 2px 10px;
+  }
+    
+  }
+  @media only screen and (max-width: 620px) {
+    .MainContainer .photo img{
+      height: 255px;
+    }
+    .MainContainer{
+      height:500px
+    }
+  
+    .skill{
+      flex-direction: column;
+  }
+  
+  .skill  ul{
+      flex-direction: column;
+  }
+  .skill  ul li{
+      justify-content: center;
+  }
+    
+  }
